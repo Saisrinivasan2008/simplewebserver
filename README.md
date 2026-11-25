@@ -40,10 +40,12 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-<img width="1150" height="906" alt="Screenshot 2026-11-25 174735" src="https://github.com/user-attachments/assets/3c90fc0e-e400-481c-905b-16c2d3ae7191" />
+<img width="947" height="887" alt="Screenshot 2026-11-25 180557" src="https://github.com/user-attachments/assets/fef756c9-e8c7-47f2-85bd-4856e8e5f16d" />
+
 
 ## OUTPUT:
-<img width="1471" height="398" alt="Screenshot 2026-11-25 174214" src="https://github.com/user-attachments/assets/0c9612cb-1f1b-4853-92d1-304a6e84e63f" />
+
+<img width="1911" height="562" alt="Screenshot 2026-11-25 180436" src="https://github.com/user-attachments/assets/f6765742-d501-43f5-bed7-dab71f5b34bd" />
 
 
 ## RESULT:
