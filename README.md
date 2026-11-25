@@ -40,47 +40,8 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Laptop Specifications</title>
-  <style>
-    body { font-family: Arial; margin: 40px; }
-    table { border-collapse: collapse; }
-    th, td { border: 1px solid black; padding: 8px 16px; text-align: left; }
-  </style>
-</head>
-<body>
-  <h2>My Laptop Specifications</h2>
-  <table id="specs"></table>
+<img width="1150" height="906" alt="Screenshot 2026-11-25 174735" src="https://github.com/user-attachments/assets/3c90fc0e-e400-481c-905b-16c2d3ae7191" />
 
-  <script>
-    function getGPU() {
-      try {
-        const gl = document.createElement("canvas").getContext("webgl");
-        const info = gl.getExtension("WEBGL_debug_renderer_info");
-        return gl.getParameter(info.UNMASKED_RENDERER_WEBGL);
-      } catch (e) {
-        return "Not available";
-      }
-    }
-
-    const specs = {
-      "Operating System": navigator.platform,
-      "CPU Cores": navigator.hardwareConcurrency,
-      "RAM (approx.)": navigator.deviceMemory ? navigator.deviceMemory + " GB" : "Not available",
-      "Screen Resolution": screen.width + " x " + screen.height,
-      "Graphics Card": getGPU(),
-      "Browser": navigator.userAgent
-    };
-
-    for (const key in specs) {
-      document.getElementById("specs").innerHTML +=
-        "<tr><th>" + key + "</th><td>" + specs[key] + "</td></tr>";
-    }
-  </script>
-</body>
-</html>
 ## OUTPUT:
 <img width="1471" height="398" alt="Screenshot 2026-11-25 174214" src="https://github.com/user-attachments/assets/0c9612cb-1f1b-4853-92d1-304a6e84e63f" />
 
